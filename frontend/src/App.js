@@ -24,10 +24,10 @@ function App() {
     setStatusType("");
 
     try {
-      const response = await fetch("http://localhost:8000/analyze", {
-        method: "POST",
-        body: formData,
-      });
+     const response = await fetch("https://sales-insight-automater-a2ll.onrender.com", {
+  method: "POST",
+  body: formData
+});
 
       const data = await response.json();
 

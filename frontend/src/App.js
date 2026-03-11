@@ -24,7 +24,7 @@ function App() {
     setStatusType("");
 
     try {
-     const response = await fetch("https://sales-insight-automater-a2ll.onrender.com", {
+     const response = await fetch("https://sales-insight-automater-a2ll.onrender.com/analyze", {
   method: "POST",
   body: formData
 });

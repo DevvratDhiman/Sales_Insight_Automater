@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css"; // Make sure App.css exists as below
 
+// Force redeploy
 function App() {
   const [file, setFile] = useState(null);
   const [email, setEmail] = useState("");
